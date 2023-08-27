@@ -29,8 +29,8 @@ export default function Home() {
   };
 
   return (
-    <main className="container mx-auto w-screen h-screen flex mt-[300px] justify-center">
-      <div className="flex w-[850px] flex-col ">
+    <main className="  mt-[300px]">
+      <div className="flex w-[850px] flex-col mx-auto">
         <div className="relative h-[80px] mb-[30px]">
           <input
             value={searchString}
