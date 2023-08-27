@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        dark: '#141C2F',
+        darkLight: '#324474',
+        darkLighter: '#1F2A48',
+        primary: '#0079FE'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
